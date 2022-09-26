@@ -1,0 +1,117 @@
+{
+  "contractName": "Ex01",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Ex01.sol\":\"Ex01\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Ex01.sol\":{\"keccak256\":\"0x98e74866d4bfff5cfa97dc7f853f8116bbfd2f21024766039b234d07cb9a80a1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7c1f2f836826bfb156f1be95935b546b95c1b9901667a350a1697f2f3444a609\",\"dweb:/ipfs/QmZJTTBdpsEUfL2MDL6whZ2yvYKSn4nQUqz8CnxcUfcMUT\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122058185480e9d9f86865a7261ceff4e4644aed2f8fbb6cf90db6b1e9a686a3456464736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122058185480e9d9f86865a7261ceff4e4644aed2f8fbb6cf90db6b1e9a686a3456464736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:46:0:-:0;;;84:26;;;;;;;;;;66:46;;;;;;",
+  "deployedSourceMap": "66:46:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Ex01 {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:\\Users\\user\\Desktop\\truffle-test\\contracts\\Ex01.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Ex01.sol",
+    "exportedSymbols": {
+      "Ex01": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Ex01",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Ex01",
+        "nameLocation": "75:4:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "105:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:0:0"
+            },
+            "scope": 6,
+            "src": "84:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:46:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:81:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-09-26T13:55:53.061Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
